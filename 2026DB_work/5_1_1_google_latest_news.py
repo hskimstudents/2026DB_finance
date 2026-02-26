@@ -45,7 +45,7 @@ def scrap_google_rss_30days(keyword):
                 "날짜": entry_date.strftime("%Y.%m.%d"),
                 "기사 제목": title,
                 "매체 이름": press,
-                "링크": entry.link,
+                
                 "datetime_obj": entry_date
             })
         
